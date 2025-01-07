@@ -144,7 +144,7 @@ checksum = "7c02d123df017efcdfbd739ef81735b36c5ba83ec3c59c80a9d7ecc718f92e50"
 [[package]]
 name = "ast_node"
 version = "3.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -269,7 +269,7 @@ dependencies = [
 [[package]]
 name = "better_scoped_tls"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "scoped-tls",
 ]
@@ -1524,7 +1524,7 @@ dependencies = [
 [[package]]
 name = "from_variant"
 version = "2.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "swc_macros_common",
@@ -3247,7 +3247,7 @@ checksum = "925383efa346730478fb4838dbe9137d2a47675ad789c546d150a6e1dd4ab31c"
 [[package]]
 name = "preset_env_base"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "ahash 0.8.11",
  "anyhow",
@@ -5505,7 +5505,7 @@ checksum = "d08889ec5408683408db66ad89e0e1f93dff55c73a4ccc71c427d5b277ee47e6"
 [[package]]
 name = "string_enum"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5560,8 +5560,8 @@ checksum = "b7401a30af6cb5818bb64852270bb722533397edcfc7344954a38f420819ece2"
 
 [[package]]
 name = "swc"
-version = "10.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "9.0.2"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "base64 0.21.7",
@@ -5613,7 +5613,7 @@ dependencies = [
 [[package]]
 name = "swc_allocator"
 version = "2.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "bumpalo",
  "hashbrown 0.14.5",
@@ -5624,8 +5624,8 @@ dependencies = [
 
 [[package]]
 name = "swc_atoms"
-version = "3.0.2"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "3.0.1"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "bytecheck 0.8.0",
  "hstr",
@@ -5639,7 +5639,7 @@ dependencies = [
 [[package]]
 name = "swc_cached"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "ahash 0.8.11",
  "anyhow",
@@ -5652,7 +5652,7 @@ dependencies = [
 [[package]]
 name = "swc_common"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "ahash 0.8.11",
  "anyhow",
@@ -5683,8 +5683,8 @@ dependencies = [
 
 [[package]]
 name = "swc_compiler_base"
-version = "8.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "7.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "base64 0.21.7",
@@ -5709,7 +5709,7 @@ dependencies = [
 [[package]]
 name = "swc_config"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "indexmap 2.7.0",
@@ -5723,7 +5723,7 @@ dependencies = [
 [[package]]
 name = "swc_config_macro"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5733,8 +5733,8 @@ dependencies = [
 
 [[package]]
 name = "swc_core"
-version = "10.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "9.0.6"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc",
  "swc_allocator",
@@ -5761,7 +5761,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_ast"
 version = "5.0.1"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "bitflags 2.6.0",
  "bytecheck 0.8.0",
@@ -5782,7 +5782,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_codegen"
 version = "5.0.1"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "memchr",
  "num-bigint",
@@ -5801,7 +5801,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_codegen_macros"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -5811,8 +5811,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_bugfixes"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -5827,8 +5827,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_common"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_common",
  "swc_ecma_ast",
@@ -5839,8 +5839,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2015"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "arrayvec",
  "indexmap 2.7.0",
@@ -5865,8 +5865,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2016"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -5881,8 +5881,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2017"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "serde",
  "swc_atoms",
@@ -5898,8 +5898,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2018"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "serde",
  "swc_atoms",
@@ -5916,8 +5916,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2019"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -5931,8 +5931,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2020"
-version = "8.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "7.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "serde",
  "swc_atoms",
@@ -5948,8 +5948,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2021"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -5963,8 +5963,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es2022"
-version = "8.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "7.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -5981,8 +5981,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_compat_es3"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_common",
  "swc_ecma_ast",
@@ -5995,8 +5995,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_ext_transforms"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "phf",
  "swc_atoms",
@@ -6008,8 +6008,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_lints"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.1"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "auto_impl",
  "dashmap 5.5.3",
@@ -6028,7 +6028,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_loader"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "dashmap 5.5.3",
@@ -6048,8 +6048,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_minifier"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.2"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "arrayvec",
  "indexmap 2.7.0",
@@ -6077,7 +6077,6 @@ dependencies = [
  "swc_ecma_usage_analyzer",
  "swc_ecma_utils",
  "swc_ecma_visit",
- "swc_parallel",
  "swc_timer",
  "tracing",
 ]
@@ -6085,7 +6084,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_parser"
 version = "6.0.1"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "either",
  "new_debug_unreachable",
@@ -6105,8 +6104,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_preset_env"
-version = "9.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "8.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "dashmap 5.5.3",
@@ -6130,7 +6129,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_quote_macros"
 version = "6.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "proc-macro2",
@@ -6145,8 +6144,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms"
-version = "9.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "8.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -6164,8 +6163,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_base"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.2"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "better_scoped_tls",
  "bitflags 2.6.0",
@@ -6182,14 +6181,13 @@ dependencies = [
  "swc_ecma_parser",
  "swc_ecma_utils",
  "swc_ecma_visit",
- "swc_parallel",
  "tracing",
 ]
 
 [[package]]
 name = "swc_ecma_transforms_classes"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -6201,8 +6199,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_compat"
-version = "8.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "7.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "arrayvec",
  "indexmap 2.7.0",
@@ -6237,7 +6235,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_transforms_macros"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6247,8 +6245,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_module"
-version = "8.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "7.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "Inflector",
  "anyhow",
@@ -6273,8 +6271,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_optimization"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "dashmap 5.5.3",
  "indexmap 2.7.0",
@@ -6297,8 +6295,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_proposal"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "either",
  "rustc-hash 1.1.0",
@@ -6316,8 +6314,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_react"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "base64 0.21.7",
  "dashmap 5.5.3",
@@ -6340,8 +6338,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_transforms_typescript"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "ryu-js",
  "serde",
@@ -6356,8 +6354,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_usage_analyzer"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "indexmap 2.7.0",
  "rustc-hash 1.1.0",
@@ -6372,8 +6370,8 @@ dependencies = [
 
 [[package]]
 name = "swc_ecma_utils"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.1"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "indexmap 2.7.0",
  "num_cpus",
@@ -6393,7 +6391,7 @@ dependencies = [
 [[package]]
 name = "swc_ecma_visit"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "new_debug_unreachable",
  "num-bigint",
@@ -6407,7 +6405,7 @@ dependencies = [
 [[package]]
 name = "swc_eq_ignore_macros"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6417,7 +6415,7 @@ dependencies = [
 [[package]]
 name = "swc_error_reporters"
 version = "6.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "miette",
@@ -6429,7 +6427,7 @@ dependencies = [
 [[package]]
 name = "swc_fast_graph"
 version = "6.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "indexmap 2.7.0",
  "petgraph",
@@ -6439,8 +6437,8 @@ dependencies = [
 
 [[package]]
 name = "swc_html"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_html_ast",
  "swc_html_codegen",
@@ -6451,7 +6449,7 @@ dependencies = [
 [[package]]
 name = "swc_html_ast"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "is-macro",
  "string_enum",
@@ -6462,7 +6460,7 @@ dependencies = [
 [[package]]
 name = "swc_html_codegen"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "auto_impl",
  "bitflags 2.6.0",
@@ -6477,7 +6475,7 @@ dependencies = [
 [[package]]
 name = "swc_html_codegen_macros"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6487,8 +6485,8 @@ dependencies = [
 
 [[package]]
 name = "swc_html_minifier"
-version = "7.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "6.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "once_cell",
  "serde",
@@ -6512,7 +6510,7 @@ dependencies = [
 [[package]]
 name = "swc_html_parser"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "swc_atoms",
  "swc_common",
@@ -6523,7 +6521,7 @@ dependencies = [
 [[package]]
 name = "swc_html_utils"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "once_cell",
  "serde",
@@ -6535,7 +6533,7 @@ dependencies = [
 [[package]]
 name = "swc_html_visit"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "serde",
  "swc_atoms",
@@ -6547,7 +6545,7 @@ dependencies = [
 [[package]]
 name = "swc_macros_common"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6557,7 +6555,7 @@ dependencies = [
 [[package]]
 name = "swc_node_comments"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "dashmap 5.5.3",
  "swc_atoms",
@@ -6566,8 +6564,8 @@ dependencies = [
 
 [[package]]
 name = "swc_parallel"
-version = "1.0.1"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "1.0.0"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "chili",
  "once_cell",
@@ -6576,7 +6574,7 @@ dependencies = [
 [[package]]
 name = "swc_plugin_proxy"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "better_scoped_tls",
  "bytecheck 0.8.0",
@@ -6591,7 +6589,7 @@ dependencies = [
 [[package]]
 name = "swc_plugin_runner"
 version = "5.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "anyhow",
  "enumset",
@@ -6616,7 +6614,7 @@ dependencies = [
 [[package]]
 name = "swc_timer"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "tracing",
 ]
@@ -6624,7 +6622,7 @@ dependencies = [
 [[package]]
 name = "swc_trace_macro"
 version = "2.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6634,7 +6632,7 @@ dependencies = [
 [[package]]
 name = "swc_transform_common"
 version = "1.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "better_scoped_tls",
  "once_cell",
@@ -6645,8 +6643,8 @@ dependencies = [
 
 [[package]]
 name = "swc_typescript"
-version = "6.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+version = "5.0.1"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "petgraph",
  "rustc-hash 1.1.0",
@@ -6661,7 +6659,7 @@ dependencies = [
 [[package]]
 name = "swc_visit"
 version = "2.0.0"
-source = "git+https://github.com/swc-project/swc/#925695fc4d486ea4c727f1c251076000dda8bd45"
+source = "git+https://github.com/swc-project/swc/?rev=d381e2f645e51a5e5077fb9069c82159e0fd376a#d381e2f645e51a5e5077fb9069c82159e0fd376a"
 dependencies = [
  "either",
  "new_debug_unreachable",
