@@ -294,7 +294,7 @@ chunk (runtime: main) 751.bundle.js (b) 49 bytes <{76}> <{909}> >{76}< [rendered
   ./module-b.js 49 bytes [built] [code generated]
 chunk (runtime: main) 76.bundle.js (c) 98 bytes <{74}> <{751}> >{74}< >{751}< [rendered]
   ./module-c.js 98 bytes [built] [code generated]
-chunk (runtime: main) bundle.js (main) 98 bytes (javascript) 8.46 KiB (runtime) >{74}< >{751}< [entry] [rendered]
+chunk (runtime: main) bundle.js (main) 98 bytes (javascript) 8.4 KiB (runtime) >{74}< >{751}< [entry] [rendered]
   ./index.js 98 bytes [built] [code generated]
 Rspack x.x.x compiled successfully"
 `;
@@ -399,7 +399,7 @@ Rspack x.x.x compiled successfully in X.23"
 `;
 
 exports[`StatsTestCases should print correct stats for graph-correctness-entries 1`] = `
-"chunk (runtime: e1) e1.js (e1) 49 bytes (javascript) 8.49 KiB (runtime) >{74}< [entry] [rendered]
+"chunk (runtime: e1) e1.js (e1) 49 bytes (javascript) 8.43 KiB (runtime) >{74}< [entry] [rendered]
   ./e1.js 49 bytes [built] [code generated]
     entry ./e1
 chunk (runtime: e1, e2) a.js (a) 49 bytes <{605}> <{76}> >{751}< [rendered]
@@ -413,14 +413,14 @@ chunk (runtime: e1, e2) c.js (c) 49 bytes <{751}> <{844}> >{74}< [rendered]
   ./module-c.js 49 bytes [built] [code generated]
     import() ./module-c ./e2.js
     import() ./module-c ./module-b.js
-chunk (runtime: e2) e2.js (e2) 49 bytes (javascript) 8.49 KiB (runtime) >{76}< [entry] [rendered]
+chunk (runtime: e2) e2.js (e2) 49 bytes (javascript) 8.43 KiB (runtime) >{76}< [entry] [rendered]
   ./e2.js 49 bytes [built] [code generated]
     entry ./e2
 Rspack x.x.x compiled successfully"
 `;
 
 exports[`StatsTestCases should print correct stats for graph-correctness-modules 1`] = `
-"chunk (runtime: e1) e1.js (e1) 119 bytes (javascript) 8.8 KiB (runtime) >{74}< >{984}< [entry] [rendered]
+"chunk (runtime: e1) e1.js (e1) 119 bytes (javascript) 8.74 KiB (runtime) >{74}< >{984}< [entry] [rendered]
   ./e1.js 70 bytes [built] [code generated]
     entry ./e1
   ./module-x.js 49 bytes [dependent] [built] [code generated]
@@ -438,7 +438,7 @@ chunk (runtime: e1, e2) c.js (c) 49 bytes <{751}> <{844}> >{74}< [rendered]
   ./module-c.js 49 bytes [built] [code generated]
     import() ./module-c ./e2.js
     import() ./module-c ./module-b.js
-chunk (runtime: e2) e2.js (e2) 119 bytes (javascript) 8.8 KiB (runtime) >{76}< >{984}< [entry] [rendered]
+chunk (runtime: e2) e2.js (e2) 119 bytes (javascript) 8.74 KiB (runtime) >{76}< >{984}< [entry] [rendered]
   ./e2.js 70 bytes [built] [code generated]
     entry ./e2
   ./module-x.js 49 bytes [dependent] [built] [code generated]
@@ -497,7 +497,7 @@ Rspack x.x.x compiled successfully in X.23"
 `;
 
 exports[`StatsTestCases should print correct stats for immutable 1`] = `
-"asset 7d308f468b6a0d1b.js 10.4 KiB [emitted] [immutable] (name: main)
+"asset 116b1a4ed30fb90d.js 10.3 KiB [emitted] [immutable] (name: main)
 asset 7342054f673663df.js 167 bytes [emitted] [immutable]"
 `;
 
@@ -521,7 +521,7 @@ exports[`StatsTestCases should print correct stats for import-weak 1`] = `
 "asset entry.js 10.2 KiB [emitted] (name: entry)
 asset 332.js 283 bytes [emitted]
 asset 313.js 128 bytes [emitted]
-runtime modules 8.46 KiB 10 modules
+runtime modules 8.39 KiB 10 modules
 cacheable modules 179 bytes
   ./entry.js 120 bytes [built] [code generated]
   ./modules/a.js 37 bytes [built] [code generated]
@@ -533,7 +533,7 @@ exports[`StatsTestCases should print correct stats for import-weak-parser-option
 "asset entry.js 10.2 KiB [emitted] (name: entry)
 asset 332.js 283 bytes [emitted]
 asset 313.js 128 bytes [emitted]
-runtime modules 8.46 KiB 10 modules
+runtime modules 8.39 KiB 10 modules
 cacheable modules 153 bytes
   ./entry.js 94 bytes [built] [code generated]
   ./modules/a.js 37 bytes [built] [code generated]
@@ -542,7 +542,7 @@ Rspack x.x.x compiled successfully in X.23"
 `;
 
 exports[`StatsTestCases should print correct stats for import-with-invalid-options-comments 1`] = `
-"runtime modules 9.51 KiB 12 modules
+"runtime modules 9.43 KiB 12 modules
 cacheable modules 559 bytes
   ./index.js 50 bytes [built] [code generated]
   ./chunk.js 401 bytes [built] [code generated] [2 warnings]
@@ -603,11 +603,11 @@ Rspack x.x.x compiled successfully in X.23
 assets by chunk 862 bytes (id hint: all)
   asset c-all-b_js-b683c5304b71900e.js 480 bytes [emitted] [immutable] (id hint: all)
   asset c-all-c_js-2c876c6ecab93d9b.js 382 bytes [emitted] [immutable] (id hint: all)
-asset c-runtime~main-cf6fa4193cfaab7e.js 11.1 KiB [emitted] [immutable] (name: runtime~main)
-asset c-main-1b0ba12f79ed8053.js 643 bytes [emitted] [immutable] (name: main)
+asset c-runtime~main-9e9969406eecca68.js 11.1 KiB [emitted] [immutable] (name: runtime~main)
+asset c-main-5df1191222ffdffb.js 588 bytes [emitted] [immutable] (name: main)
 asset c-vendors-node_modules_vendor_js-8e4df31a4698ceb4.js 173 bytes [emitted] [immutable] (id hint: vendors)
-Entrypoint main 12.1 KiB = c-runtime~main-cf6fa4193cfaab7e.js 11.1 KiB c-all-c_js-2c876c6ecab93d9b.js 382 bytes c-main-1b0ba12f79ed8053.js 643 bytes
-runtime modules 9.73 KiB 13 modules
+Entrypoint main 12.1 KiB = c-runtime~main-9e9969406eecca68.js 11.1 KiB c-all-c_js-2c876c6ecab93d9b.js 382 bytes c-main-5df1191222ffdffb.js 588 bytes
+runtime modules 9.67 KiB 13 modules
 cacheable modules 101 bytes
   ./c.js 61 bytes [built] [code generated]
   ./b.js 17 bytes [built] [code generated]
@@ -617,8 +617,8 @@ Rspack x.x.x compiled successfully in X.23"
 
 exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 1`] = `
 "1 chunks:
-  asset bundle1.js 3.86 KiB [emitted] (name: main)
-  chunk (runtime: main) bundle1.js (main) 219 bytes (javascript) 1.84 KiB (runtime) <{909}> >{909}< [entry] [rendered]
+  asset bundle1.js 3.79 KiB [emitted] (name: main)
+  chunk (runtime: main) bundle1.js (main) 219 bytes (javascript) 1.78 KiB (runtime) <{909}> >{909}< [entry] [rendered]
     ./a.js 22 bytes [dependent] [built] [code generated]
     ./b.js 22 bytes [dependent] [built] [code generated]
     ./c.js 30 bytes [dependent] [built] [code generated]
@@ -628,7 +628,7 @@ exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 
   1 chunks (Rspack x.x.x) compiled successfully in X.23
 
 2 chunks:
-  asset bundle2.js 10.3 KiB [emitted] (name: main)
+  asset bundle2.js 10.2 KiB [emitted] (name: main)
   asset 76.bundle2.js 599 bytes [emitted] (name: c)
   chunk (runtime: main) 76.bundle2.js (c) 118 bytes <{76}> <{909}> >{76}< [rendered]
     dependent modules 44 bytes [dependent]
@@ -637,12 +637,12 @@ exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 
     ./a.js 22 bytes [built] [code generated]
     ./b.js 22 bytes [built] [code generated]
     ./c.js 30 bytes [built] [code generated]
-  chunk (runtime: main) bundle2.js (main) 101 bytes (javascript) 8.46 KiB (runtime) >{76}< [entry] [rendered]
+  chunk (runtime: main) bundle2.js (main) 101 bytes (javascript) 8.4 KiB (runtime) >{76}< [entry] [rendered]
     ./index.js 101 bytes [built] [code generated]
   2 chunks (Rspack x.x.x) compiled successfully in X.23
 
 3 chunks:
-  asset bundle3.js 10.3 KiB [emitted] (name: main)
+  asset bundle3.js 10.2 KiB [emitted] (name: main)
   asset 76.bundle3.js 385 bytes [emitted] (name: c)
   asset 656.bundle3.js 290 bytes [emitted]
   chunk (runtime: main) 656.bundle3.js 88 bytes <{76}> <{909}> [rendered]
@@ -652,12 +652,12 @@ exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 
     ./e.js 22 bytes [built] [code generated]
   chunk (runtime: main) 76.bundle3.js (c) 30 bytes <{909}> >{656}< [rendered]
     ./c.js 30 bytes [built] [code generated]
-  chunk (runtime: main) bundle3.js (main) 101 bytes (javascript) 8.46 KiB (runtime) >{656}< >{76}< [entry] [rendered]
+  chunk (runtime: main) bundle3.js (main) 101 bytes (javascript) 8.4 KiB (runtime) >{656}< >{76}< [entry] [rendered]
     ./index.js 101 bytes [built] [code generated]
   3 chunks (Rspack x.x.x) compiled successfully in X.23
 
 4 chunks:
-  asset bundle4.js 10.3 KiB [emitted] (name: main)
+  asset bundle4.js 10.2 KiB [emitted] (name: main)
   asset 76.bundle4.js 385 bytes [emitted] (name: c)
   asset 537.bundle4.js 236 bytes [emitted]
   asset 697.bundle4.js 128 bytes [emitted]
@@ -669,7 +669,7 @@ exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 
     ./e.js 22 bytes [built] [code generated]
   chunk (runtime: main) 76.bundle4.js (c) 30 bytes <{909}> >{537}< >{697}< [rendered]
     ./c.js 30 bytes [built] [code generated]
-  chunk (runtime: main) bundle4.js (main) 101 bytes (javascript) 8.46 KiB (runtime) >{537}< >{76}< [entry] [rendered]
+  chunk (runtime: main) bundle4.js (main) 101 bytes (javascript) 8.4 KiB (runtime) >{537}< >{76}< [entry] [rendered]
     ./index.js 101 bytes [built] [code generated]
   4 chunks (Rspack x.x.x) compiled successfully in X.23"
 `;
@@ -1203,14 +1203,14 @@ Rspack x.x.x compiled with <CLR=31,BOLD>3 errors</CLR> in X s"
 `;
 
 exports[`StatsTestCases should print correct stats for prefetch 1`] = `
-"asset main.js 14 KiB {909} [emitted] (name: main)
+"asset main.js 13.8 KiB {909} [emitted] (name: main)
 asset prefetched.js 552 bytes {674} [emitted] (name: prefetched)
 asset inner2.js 126 bytes {857} [emitted] (name: inner2)
 asset inner.js 100 bytes {481} [emitted] (name: inner)
 asset normal.js 100 bytes {615} [emitted] (name: normal)
 asset prefetched2.js 100 bytes {424} [emitted] (name: prefetched2)
 asset prefetched3.js 100 bytes {182} [emitted] (name: prefetched3)
-Entrypoint main 14 KiB = main.js
+Entrypoint main 13.8 KiB = main.js
   prefetch: prefetched.js {674} (name: prefetched), prefetched3.js {182} (name: prefetched3), prefetched2.js {424} (name: prefetched2)
 chunk {182} (runtime: main) prefetched3.js (prefetched3) 1 bytes <{909}> [rendered]
 chunk {424} (runtime: main) prefetched2.js (prefetched2) 1 bytes <{909}> [rendered]
@@ -1218,7 +1218,7 @@ chunk {481} (runtime: main) inner.js (inner) 1 bytes <{674}> [rendered]
 chunk {615} (runtime: main) normal.js (normal) 1 bytes <{909}> [rendered]
 chunk {674} (runtime: main) prefetched.js (prefetched) 228 bytes <{909}> >{481}< >{857}< (prefetch: {857} {481}) [rendered]
 chunk {857} (runtime: main) inner2.js (inner2) 2 bytes <{674}> [rendered]
-chunk {909} (runtime: main) main.js (main) 436 bytes (javascript) 11 KiB (runtime) >{182}< >{424}< >{615}< >{674}< (prefetch: {674} {182} {424}) [entry] [rendered]"
+chunk {909} (runtime: main) main.js (main) 436 bytes (javascript) 10.9 KiB (runtime) >{182}< >{424}< >{615}< >{674}< (prefetch: {674} {182} {424}) [entry] [rendered]"
 `;
 
 exports[`StatsTestCases should print correct stats for prefetch-preload-mixed 1`] = `
@@ -1232,18 +1232,18 @@ chunk (runtime: main) a2.js (a2) 1 bytes <{74}> [rendered]
 chunk (runtime: main) b.js (b) 203 bytes <{909}> >{438}< >{439}< >{826}< (prefetch: {826} {438}) (preload: {439}) [rendered]
 chunk (runtime: main) c.js (c) 134 bytes <{909}> >{380}< >{433}< (preload: {433} {380}) [rendered]
 chunk (runtime: main) b1.js (b1) 1 bytes <{751}> [rendered]
-chunk (runtime: main) main.js (main) 195 bytes (javascript) 11.7 KiB (runtime) >{74}< >{751}< >{76}< (prefetch: {74} {751} {76}) [entry] [rendered]"
+chunk (runtime: main) main.js (main) 195 bytes (javascript) 11.6 KiB (runtime) >{74}< >{751}< >{76}< (prefetch: {74} {751} {76}) [entry] [rendered]"
 `;
 
 exports[`StatsTestCases should print correct stats for preload 1`] = `
-"asset main.js 12.5 KiB [emitted] (name: main)
+"asset main.js 12.4 KiB [emitted] (name: main)
 asset preloaded.js 552 bytes [emitted] (name: preloaded)
 asset inner2.js 126 bytes [emitted] (name: inner2)
 asset inner.js 100 bytes [emitted] (name: inner)
 asset normal.js 100 bytes [emitted] (name: normal)
 asset preloaded2.js 99 bytes [emitted] (name: preloaded2)
 asset preloaded3.js 98 bytes [emitted] (name: preloaded3)
-Entrypoint main 12.5 KiB = main.js
+Entrypoint main 12.4 KiB = main.js
   preload: preloaded.js {154} (name: preloaded), preloaded3.js {551} (name: preloaded3), preloaded2.js {577} (name: preloaded2)
 chunk (runtime: main) preloaded.js (preloaded) 226 bytes (preload: {857} {481}) [rendered]
 chunk (runtime: main) inner.js (inner) 1 bytes [rendered]
@@ -1251,7 +1251,7 @@ chunk (runtime: main) preloaded3.js (preloaded3) 1 bytes [rendered]
 chunk (runtime: main) preloaded2.js (preloaded2) 1 bytes [rendered]
 chunk (runtime: main) normal.js (normal) 1 bytes [rendered]
 chunk (runtime: main) inner2.js (inner2) 2 bytes [rendered]
-chunk (runtime: main) main.js (main) 424 bytes (javascript) 9.81 KiB (runtime) (preload: {154} {551} {577}) [entry] [rendered]"
+chunk (runtime: main) main.js (main) 424 bytes (javascript) 9.73 KiB (runtime) (preload: {154} {551} {577}) [entry] [rendered]"
 `;
 
 exports[`StatsTestCases should print correct stats for preset-errors-only 1`] = `""`;

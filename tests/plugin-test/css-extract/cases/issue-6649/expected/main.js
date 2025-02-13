@@ -30,7 +30,7 @@ __webpack_require__.m = __webpack_modules__;
 /************************************************************************/
 // webpack/runtime/create_fake_namespace_object
 (() => {
-var getProto = Object.getPrototypeOf ? function(obj) { return Object.getPrototypeOf(obj); } : function(obj) { return obj.__proto__ };
+var getProto = Object.getPrototypeOf ? (obj) => (Object.getPrototypeOf(obj)) : (obj) => (obj.__proto__);
 var leafPrototypes;
 // create a fake namespace object
 // mode & 1: value is a module id, require it
@@ -50,9 +50,9 @@ __webpack_require__.t = function(value, mode) {
 	var def = {};
 	leafPrototypes = leafPrototypes || [null, getProto({}), getProto([]), getProto(getProto)];
 	for(var current = mode & 2 && value; typeof current == 'object' && !~leafPrototypes.indexOf(current); current = getProto(current)) {
-		Object.getOwnPropertyNames(current).forEach(function(key) { def[key] = function() { return  value[key]; } });
+		Object.getOwnPropertyNames(current).forEach((key) => { def[key] = () => (value[key]) });
 	}
-	def['default'] = function() { return value };
+	def['default'] = () => (value);
 	__webpack_require__.d(ns, def);
 	return ns;
 };
@@ -107,7 +107,7 @@ __webpack_require__.e = function (chunkId) {
 // webpack/runtime/get_full_hash
 (() => {
 __webpack_require__.h = function () {
-	return "da63e7bb2bfca29ff73b";
+	return "076cad2655a31681d41e";
 };
 
 })();

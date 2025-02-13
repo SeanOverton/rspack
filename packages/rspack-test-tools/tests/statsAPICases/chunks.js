@@ -150,7 +150,7 @@ module.exports = {
 		      main.js,
 		    ],
 		    filteredModules: undefined,
-		    hash: 8aed47a5120d1613,
+		    hash: e5c4845e36a27dc0,
 		    id: 909,
 		    idHints: Array [],
 		    initial: true,
@@ -247,7 +247,7 @@ module.exports = {
 		    size: 85,
 		    sizes: Object {
 		      javascript: 85,
-		      runtime: 9140,
+		      runtime: 9076,
 		    },
 		    type: chunk,
 		  },
