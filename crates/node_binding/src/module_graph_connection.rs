@@ -15,7 +15,10 @@ pub struct JsModuleGraphConnection {
 }
 
 impl JsModuleGraphConnection {
-  fn as_ref<T>(&self, f: impl FnOnce(&Compilation, &ModuleGraphConnection) -> napi::Result<T>) -> napi::Result<T> {
+  fn as_ref<T>(
+    &self,
+    f: impl FnOnce(&Compilation, &ModuleGraphConnection) -> napi::Result<T>,
+  ) -> napi::Result<T> {
     match self.compiler_reference.get() {
       Some(this) => {
         let compilation = &this.compiler.compilation;
@@ -96,14 +99,14 @@ thread_local! {
 
 pub struct JsModuleGraphConnectionWrapper {
   dependency_id: DependencyId,
-  compiler_id: CompilerId
+  compiler_id: CompilerId,
 }
 
 impl JsModuleGraphConnectionWrapper {
   pub fn new(dependency_id: DependencyId, compiler_id: CompilerId) -> Self {
     Self {
       dependency_id,
-      compiler_id
+      compiler_id,
     }
   }
 
