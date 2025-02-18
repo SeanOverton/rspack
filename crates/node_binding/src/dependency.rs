@@ -293,7 +293,7 @@ impl FromNapiValue for JsDependencyWrapper {
 
 impl TypeName for JsDependencyWrapper {
   fn type_name() -> &'static str {
-    "JsDependency"
+    "Dependency"
   }
 
   fn value_type() -> napi::ValueType {
