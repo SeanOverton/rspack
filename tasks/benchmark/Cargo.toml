@@ -22,4 +22,12 @@ tokio        = { workspace = true }
 
 [[bench]]
 harness = false
-name    = "benches"
+name    = "basic"
+
+[[bench]]
+harness = false
+name    = "build_chunk_graph"
+
+[[bench]]
+harness = false
+name    = "modules_10000"

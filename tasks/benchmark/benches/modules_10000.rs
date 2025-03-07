@@ -4,7 +4,7 @@
 
 use std::{path::PathBuf, sync::Arc};
 
-use criterion::criterion_group;
+use criterion::{criterion_group, criterion_main};
 use rspack::builder::Builder as _;
 use rspack_benchmark::Criterion;
 use rspack_core::{
@@ -107,3 +107,4 @@ pub fn modules_10000_benchmark(c: &mut Criterion) {
 }
 
 criterion_group!(modules_10000, modules_10000_benchmark);
+criterion_main!(modules_10000);
