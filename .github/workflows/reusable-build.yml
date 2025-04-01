@@ -106,6 +106,9 @@ jobs:
         with:
           tool-cache: false
 
+      - name: Debug
+        uses: mxschmitt/action-tmate@e5c7151931ca95bad1c6f4190c730ecf8c7dde48 # v3.19
+
       # Linux
       - name: Build x86_64-unknown-linux-gnu in Docker
         if: ${{ inputs.target == 'x86_64-unknown-linux-gnu' && steps.check_cache.outputs.exists != 'true' && !inputs.skipable }}
